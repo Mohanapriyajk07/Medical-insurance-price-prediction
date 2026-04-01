@@ -1,4 +1,5 @@
 🏥 Medical Insurance Prediction System
+
 A Flask web application that predicts medical insurance premiums using machine learning. The system analyzes user demographics, health metrics, and lifestyle factors to provide personalized insurance premium predictions with health improvement suggestions.
 
 📋 Table of Contents
@@ -56,8 +57,11 @@ cd Medical-Insurance.git
 # Or simply download all files to a folder
 2. Install Dependencies
 bash
+
 pip install -r requirements.txt
+
 3. Place Model Files
+   
 Ensure these files are in the main project directory:
 
 insurance_model.pkl
@@ -68,27 +72,30 @@ encoders.pkl
 text
 insurance_app/
 │
-├── app.py                 # Main Flask application
-├── insurance_model.pkl    # Trained ML model (required)
-├── encoders.pkl          # Fitted encoders (required)
-├── requirements.txt       # Python dependencies
+├── app.py                       # Main Flask application
+├── insurance_model.pkl          # Trained ML model (required)
+├── encoders.pkl                 # Fitted encoders (required)
+├── requirements.txt             # Python dependencies
 │
 ├── templates/
-│   ├── index.html        # Main input form
-│   └── result.html       # Results display page
+│   ├── index.html               # Main input form
+│   └── result.html              # Results display page
 │
 └── static/
-    └── style.css         # CSS styling
+    └── style.css                # CSS styling
 
 
 🚀 Usage
+
 Starting the Application
+
 Open terminal/command prompt in the project directory
 
 Run the Flask application:
 
 bash
 python app.py
+
 Access the web application:
 Open your browser and navigate to:
 
@@ -118,6 +125,7 @@ Applied lifestyle discounts
 Health improvement suggestions
 
 Example Input
+
 Field	Example Value
 Name	John Doe
 Age	35
@@ -130,8 +138,14 @@ Exercise Hours	4
 Sleep Hours	7
 Salary	750000
 Profession	Engineer
+
 🔌 API Documentation
+
 POST /api/predict
 Make predictions programmatically via JSON API.
 
 Endpoint: http://localhost:5000/api/predict
+
+Acknowledgement
+
+It is an team project in my Organization
