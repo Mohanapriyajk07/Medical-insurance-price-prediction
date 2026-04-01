@@ -20,6 +20,7 @@ Model Details
 Troubleshooting
 
 ✨ Features
+
 🤖 Machine Learning Powered: Uses Random Forest Regressor for accurate premium predictions
 
 💰 Premium Breakdown: Shows normal (60%) and emergency (40%) insurance components
@@ -126,17 +127,28 @@ Health improvement suggestions
 
 Example Input
 
-Field	Example Value
-Name	John Doe
-Age	35
-Sex	Male
-Marital Status	Married
-BMI	24.5
-Smoker	No
-Daily Steps	8000
-Exercise Hours	4
-Sleep Hours	7
-Salary	750000
+Field	Example
+Value
+Name
+John Doe
+Age
+35
+Sex
+Male
+Marital
+Status	Married
+BMI
+24.5
+Smoker
+No
+Daily Steps
+8000
+Exercise Hours
+4
+Sleep Hours
+7
+Salary	
+750000
 Profession	Engineer
 
 🔌 API Documentation
