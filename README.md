@@ -38,6 +38,7 @@ Troubleshooting
 ⚡ Real-time Predictions: Instant results with detailed breakdown
 
 🛠 Prerequisites
+
 Before running this application, ensure you have:
 
 Python 3.8 or higher
@@ -98,6 +99,7 @@ bash
 python app.py
 
 Access the web application:
+
 Open your browser and navigate to:
 
 text
@@ -128,27 +130,51 @@ Health improvement suggestions
 Example Input
 
 Field	Example
+
 Value
+
 Name
+
 John Doe
+
 Age
+
 35
+
 Sex
+
 Male
+
 Marital
-Status	Married
+
+Status	
+
+Married
+
 BMI
+
 24.5
+
 Smoker
+
 No
+
 Daily Steps
+
 8000
+
 Exercise Hours
+
 4
+
 Sleep Hours
+
 7
-Salary	
+
+Salary
+
 750000
+
 Profession	Engineer
 
 🔌 API Documentation
