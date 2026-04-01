@@ -62,17 +62,17 @@ cd Medical-Insurance.git
 
 2. Install Dependencies
    
-bash
+   bash
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Place Model Files
    
-Ensure these files are in the main project directory:
+   Ensure these files are in the main project directory:
 
-insurance_model.pkl
+   insurance_model.pkl
 
-encoders.pkl
+   encoders.pkl
 
 📁 Project Structure
 text
