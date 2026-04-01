@@ -53,11 +53,15 @@ encoders.pkl (fitted LabelEncoders for categorical variables)
 1. Clone or Download the Project
 bash
 # If using git
-git clone https://github.com/rdineshd176-png/Medical-Insurance.git
-cd Medical-Insurance.git
+
+https://github.com/Mohanapriyajk07/Medical-insurance-price-prediction.git
+
+cd Medical-Insurance.git  
 
 # Or simply download all files to a folder
+
 2. Install Dependencies
+   
 bash
 
 pip install -r requirements.txt
